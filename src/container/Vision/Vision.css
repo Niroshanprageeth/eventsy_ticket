@@ -1,0 +1,75 @@
+.vision_container {
+  background-image: url('../../assets/couple2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 150vh;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  filter:grayscale(80%);
+ /* Light brown with 50% transparency */
+}
+.vision_container::before {
+  content: '';
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 150vh;
+  background: rgba(49, 36, 36, 0.5); /* Light brown with 50% transparency */
+}
+  
+  .vision_header{
+    align-items: center;
+    text-align: center;
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(206, 192, 192);
+    justify-content: center;
+  }
+  .vision_sub2{
+    align-items: center;
+    text-align: center;
+    color: azure;
+    justify-content: center;
+  }
+  .vision_subheader
+  {
+    align-items: center;
+    text-align: center;
+    color:azure;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .custom_button {
+    border: 2px solid white; /* Add a white border */
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: antiquewhite;
+    background: none; /* No background color */
+    padding: 80px 80px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline for links (optional) */
+    display: inline-block;
+    color: none; 
+    justify-content: center;
+    align-items: center;
+   /* Display as a block element to control width */
+  }
+  .custom_button_style{
+    border: 2px solid white; /* Add a white border */
+    font-size: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    background: none; /* No background color */
+    text-decoration: none; /* Remove underline for links (optional) */
+    display: inline-block;
+    color: none; 
+  }
+  

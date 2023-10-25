@@ -1,0 +1,43 @@
+/* Styles for the icon circles */
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Adjust the circle size as needed */
+    height: 100px;
+    background-color: brown; /* Fill color for the circle */
+    border-radius: 50%; /* Make it a circle */
+    margin: 0 auto;
+  }
+  
+  /* Styles for the icons */
+  .icon {
+    font-size: 36px; /* Increase the size of the icons */
+    color: white; /* Change the icon color */
+  }
+  
+  /* Other styles for the container and content */
+  .service_container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 0 10%;
+    overflow: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .service_container > div {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    width: 100%;
+  }
+  

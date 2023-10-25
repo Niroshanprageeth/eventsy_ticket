@@ -1,21 +1,20 @@
 import AboutUs from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
+import Vision from './Vision/Vision';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
-import Gallery from './Gallery/Gallery';
+import Quection from './Quection/Quection';
 import Header from './Header/Header';
-import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
+import Services from './Services/Services';
 import SpecialMenu from './Menu/SpecialMenu';
-
+import MainServices from './MainServices/MainServices';
 export {
   AboutUs,
-  Chef,
+ Vision,
   FindUs,
   Footer,
-  Gallery,
+  Quection,
   Header,
-  Intro,
-  Laurels,
+  Services,
   SpecialMenu,
+  MainServices
 };

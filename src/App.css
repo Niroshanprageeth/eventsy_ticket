@@ -8,13 +8,41 @@
   align-items: center;
 }
 /* Add background image to the navigation bar */
-
-
-.app__bg {
-  background: url('./assets/bg.png');
+.background-container {
+  background-image: url('./assets/32836.png');
   background-position: center;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: auto; /* Make the container scrollable */
+  height: 100vh;/* Hide overflow to prevent scroll bars */
+}
+
+.main-image {
+  /* Your existing styles for Navbar and Header */
+}
+
+.main-image {
+  background-image: url('./assets/32836.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; 
+  /* Set the height to 100vh for full viewport height */
+}
+.background-specialmenu{
+  height: 150vh;
+  background-color: rgb(26, 13, 13); /* Add brown background color */
+  border-radius: 0 0 20px 10px
+
+}
+
+.app__bg {
+  background-image: url('./assets/32836.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 

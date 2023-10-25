@@ -20,11 +20,20 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
-
+import invitation from '../assets/invitation.png';
+import ticket from '../assets/ticket.png';
+import ticket_val from '../assets/ticket_val.png';
+import design from '../assets/design2.png';
+import women from '../assets/women.png';
+import ideas from '../assets/ideas.png';
+import planning from '../assets/planning.png';
+import tickethandle from '../assets/tickethandle.png';
+import connect from '../assets/connect.png';
 export default {
   bg,
   chef,
   G,
+  women,
   gallery01,
   gallery02,
   gallery03,
@@ -44,4 +53,11 @@ export default {
   sign,
   quote,
   gericht,
+  invitation,
+  ticket,
+  ticket_val,
+  design,
+  planning,
+  connect,tickethandle,
+  ideas,
 };
