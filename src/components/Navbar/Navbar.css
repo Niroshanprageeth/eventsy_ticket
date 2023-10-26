@@ -20,15 +20,27 @@
     width: 150px;
 }
 
-.app_navbar-links {
-    flex: 1; /* Use 'flex' instead of 'float' to take up available space */
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Change 'last center' to 'center' */
-    list-style: none;
-    color: aliceblue;
-}
+/* Navbar.css */
 
+.app_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    list-style: none;
+    color: var(--color-white);
+  }
+  
+.app_navbar-links a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 18px;
+    transition: 0.3s ease;
+  }
+  
+  .app_navbar-links a:hover {
+    color: var(--color-golden); /* Change the color on hover */
+  }
 .app_navbar-links li {
     margin: 0 1rem;
     cursor: pointer;
@@ -84,14 +96,13 @@
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
-
     position: absolute;
     top: 20px;
     right:20px;
 }
 .app_navbar-smallscreen-links{
     list-style: none;
-
+     
 }
 .app_navbar-smallscreen-links li{
     margin :2rem;

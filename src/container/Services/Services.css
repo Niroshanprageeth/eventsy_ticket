@@ -1,29 +1,37 @@
 /* Services.css */
 
 .services-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-    background-image: url('../../assets/brown.png');
-    background-size:cover; /* Set the background size to cover */
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 150vh;
-    background-position: center; 
-  }
-  .service_subheader{
-    font-family:var(--font-alt);
-    color: var(--color-golden);
-    font-size: 20px;
-  }
-  
-  .service_header{
-          font-size: 40px;
-          margin-top: 20px;
-           color: #ccc;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  background-image: url('../../assets/brown.png');
+  background-size: cover; /* Set the background size to cover */
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 150vh;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_subheader {
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  font-size: 20px;
+}
+
+.service_header {
+  font-size: 40px;
+  margin-top: 20px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  margin-left: 33%;
+  color: #ccc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
   /* Style for the image */
   .service_image img {
     max-width: 100%;

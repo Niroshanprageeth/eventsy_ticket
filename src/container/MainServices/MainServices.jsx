@@ -4,7 +4,7 @@ import './MainServices.css';
 import { images } from '../../constants';
 
 const MainServices = () => (
-  <div className='service_container'>
+  <div className='service_container' id='main-service'>
     <div>
       <div className="circle">
         <i className="fa fa-lightbulb-o icon" aria-hidden="true"></i>

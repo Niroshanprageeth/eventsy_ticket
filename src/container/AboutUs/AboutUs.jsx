@@ -3,7 +3,7 @@ import './AboutUs.css';
 import { images } from '../../constants';
 
 const AboutUs = () => (
-  <div className='app_aboutus_app_bg' id='aboutus'>
+  <div className='app_aboutus_app_bg' id="about-us">
     <div className='about_content'>
       <img src={images.about} alt='Event Planner' className='about_image' />
       <div>

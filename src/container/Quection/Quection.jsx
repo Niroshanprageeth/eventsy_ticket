@@ -17,7 +17,7 @@ const Quection = () => {
   };
 
   return (
-    <div>
+    <div id="faq">
       <div className='second_container'>
         <div className='subheading'>
           <h3>FAQ</h3>

@@ -27,7 +27,7 @@ const Services = () => {
           <h3>Testimonials</h3>
         </div>
         <div className="service_header">
-          <h2>What Our Customers Say</h2>
+          <h2 className='service'>What Our Customers Say</h2>
         </div>
        
         <div className="service_image">

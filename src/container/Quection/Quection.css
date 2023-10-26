@@ -50,6 +50,7 @@ h2{
     margin-top: 20px; 
     display: flex;
     flex-direction: column;
+    
    /* Add margin-top to create space between heading and questions */
 }
 
@@ -57,7 +58,7 @@ p {
     margin-top: 10px; /* Add space above and below paragraphs */
     margin-bottom: 10px;
     padding-bottom: 20px;
-    width: 50%;
+    width: 10%;
 }
 
 h2 {
