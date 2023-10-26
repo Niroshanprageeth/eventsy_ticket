@@ -1,0 +1,68 @@
+/* Footer.css */
+.footer {
+    background-color: #292c35; /* Footer background color */
+    color: #fff; /* Text color */
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff9900; /* Change header text color */
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 33.33%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Add smooth color transition */
+}
+
+.footer-section a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+.footer .social-icons {
+    margin: 20px 0;
+    flex: 1;
+}
+
+.footer .social-icons a {
+    font-size: 40px; /* Increase the icon size */
+    margin: 0 20px; /* Increase the space between icons */
+    text-decoration: none;
+    position: relative;
+    color: rgb(72, 77, 77);
+    border: 1px solid brown;
+}
+.social-icons hover{
+    color: #ff9900;
+}
+/* Rest of your social media icon styles... */

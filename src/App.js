@@ -19,7 +19,7 @@ const App = () => (
     <Quection/>
     <MainServices/>
     </div>
-    <FindUs />
+    <AboutUs/>
     <Footer />
   </div>
 );

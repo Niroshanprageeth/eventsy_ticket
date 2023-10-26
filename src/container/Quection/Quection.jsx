@@ -12,7 +12,7 @@ const Quection = () => {
       setLineTopPosition(50); // Reset line position when hiding the paragraph
     } else {
       setVisibleParagraph(index);
-      setLineTopPosition(120); // Adjust to the desired position when showing the paragraph
+      setLineTopPosition(200); // Adjust to the desired position when showing the paragraph
     }
   };
 
@@ -35,7 +35,7 @@ const Quection = () => {
             </span>
             <hr
               className={visibleParagraph === 1 ? 'active' : ''}
-              style={{ top: `${lineTopPosition}px` ,width:'50%',border:'0.3px solid white'}} // Set the top position dynamically
+              style={{ top: `${lineTopPosition}px`,border:'0.3px solid white'}} // Set the top position dynamically
             />
           </h2>
           {visibleParagraph === 1 && (
@@ -57,7 +57,7 @@ const Quection = () => {
             </span>
             <hr
               className={visibleParagraph === 2 ? 'active' : ''}
-              style={{ top: `${lineTopPosition}px`,width:'50%' }} // Set the top position dynamically
+              style={{ top: `${lineTopPosition}px`, }} // Set the top position dynamically
             />
           </h2>
           {visibleParagraph === 2 && (
@@ -73,7 +73,7 @@ const Quection = () => {
             </span>
             <hr
               className={visibleParagraph === 3 ? 'active' : ''}
-              style={{ top: `${lineTopPosition}px`,width:'50%' }} // Set the top position dynamically
+              style={{ top: `${lineTopPosition}px` }} // Set the top position dynamically
             />
           </h2>
           {visibleParagraph === 3 && (
@@ -89,7 +89,7 @@ const Quection = () => {
             </span>
             <hr
               className={visibleParagraph === 4 ? 'active' : ''}
-              style={{ top: `${lineTopPosition}px` ,width:'50%'}} // Set the top position dynamically
+              style={{ top: `${lineTopPosition}px` }} // Set the top position dynamically
             />
           </h2>
           {visibleParagraph === 4 && (

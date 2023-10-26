@@ -5,7 +5,7 @@
     padding-left: 7%;
     text-align: start;
     /* background-image: url('../../assets/brown.png'); */
-    
+    background-color: rgb(65, 43, 21);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -17,10 +17,17 @@
 
 .second_container img.image {
     position: absolute;
-    top: 0;
-    right: 10%;
+    top: 35%;
+    right: 7%;
+    max-width: 50%;
+    height: 100vh;
+    border-radius: 10px;
 }
-
+h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+    width: 50%;
+}
 .subheading {
     font-size: 20px;
     font-family: var(--font-alt);
@@ -60,7 +67,7 @@ h2 {
 
 hr.active {
     position: absolute;
-    width: 50%;
+    width: 100%;
     border: 0.1px solid antiquewhite;
     transition: top 0.3s ease; /* Add smooth transition for top position */
 }
