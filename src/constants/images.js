@@ -30,6 +30,7 @@ import planning from '../assets/planning.png';
 import tickethandle from '../assets/tickethandle.png';
 import connect from '../assets/connect.png';
 import about from '../assets/about.png'
+
 export default {
   bg,
   chef,
